@@ -1,0 +1,194 @@
+
+[32m	*********Welcome to OpenHarmony!*********[0m
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[32mSystem shell: bash 5.1.16(1)-release[0m
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[32mCurrent time: 2026-05-18 18:14:55[0m
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[32mBuild args: --product-name wifiiot_hispark_pegasus --ccache --no-prebuilt-sdk[0m
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[OHOS INFO] Current Node.js version is v14.21.1
+[32m[OHOS INFO] Node.js version check passed![0m
+[OHOS INFO] Ohpm initialization started...
+npm WARN @ohos/ohpm@1.2.5 No description
+npm WARN @ohos/ohpm@1.2.5 No repository field.
+
+[OHOS INFO] Current ohpm version is 1.2.5
+ohpm DEBUG: config set "registry" "https://repo.harmonyos.com/ohpm/"
+ohpm DEBUG: config set "strict_ssl" "false"
+ohpm DEBUG: config set "log_level" "debug"
+[OHOS INFO] installing pnpm...
+[OHOS INFO] installing hypium...
+ohpm DEBUG: getMaxConcurrent maxConcurrent: 50
+ohpm DEBUG: getRetryTimes retryTimes: 1
+ohpm DEBUG: getRetryInterval retryInterval: 1000
+ohpm DEBUG: executeDefault start execute tasks, size: 1
+ohpm DEBUG: retry n.init(e) started.
+ohpm DEBUG: executeDefault done, execute the left tasks, size: 1
+ohpm DEBUG: ConcurrentExecutor completed in 0s 2ms
+[32m[OHOS INFO] ohpm initialization successful![0m
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[32m[OHOS INFO] Start building...[0m
+
+[OHOS INFO] Set cache size limit to 100.0 GB
+[93m[OHOS WARNING][0m The target_cpu needs to be specified, default target_cpu=arm
+[OHOS INFO] generated build prop info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/build.prop
+[OHOS INFO] generated build config info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/build_config.json
+[OHOS INFO] generated product parts info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/parts.json
+[OHOS INFO] generated parts config info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/parts_config.json
+[OHOS INFO] generated build gnargs prop info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/build_gnargs.prop
+[OHOS INFO] generated features info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/features.json
+[OHOS INFO] generated syscap info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/syscap.json
+[OHOS INFO] generated exclusion modules info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/exclusion_modules.json
+[OHOS INFO] generated platforms build info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/platforms.build
+[OHOS INFO] generated subsystem config info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/subsystem_config.json
+[OHOS INFO] generated system capability info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/systemcapability.json
+[OHOS INFO] generated compile_standard_whitelist info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/compile_standard_whitelist.json
+[OHOS INFO] generated compile_env_allowlist info to /home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/compile_env_allowlist.json
+[OHOS INFO] Checking all build args...
+[OHOS INFO] subsytem config scan completed
+[OHOS INFO] all parts scan completed
+[OHOS INFO] Loading configuration file...
+
+[OHOS INFO] loader args:['platforms_config_file="/home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/platforms.build"', 'subsystem_config_file="/home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/subsystem_config.json"', 'example_subsystem_file=""', 'exclusion_modules_config_file="/home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/exclusion_modules.json"', 'source_root_dir="/home/ljy/openharmony/"', 'gn_root_out_dir="out/hispark_pegasus/wifiiot_hispark_pegasus"', 'build_platform_name=phone', 'build_xts=False', 'load_test_config=True', 'target_os=ohos', 'target_cpu=arm', 'os_level=mini', "ignore_api_check=['xts', 'common', 'testfwk']", 'scalable_build=False', 'skip_partlist_check=False']
+[OHOS INFO] Checking parts config...
+[OHOS INFO] generated subsystem build config to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/subsystem_info/subsystem_build_config.json'
+[OHOS INFO] generated src subsystem info to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/subsystem_info/src_subsystem_info.json'
+[OHOS INFO] generated no src subsystem info to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/subsystem_info/no_src_subsystem_info.json'
+[OHOS INFO] generate target platform parts to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/target_platforms_parts.json'
+[OHOS INFO] generated system capabilities to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/phone_system_capabilities.json'
+[OHOS INFO] generated platforms parts by src to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/platforms_parts_by_src.json'
+[OHOS INFO] generate required parts targets to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/required_parts_targets.json'
+[OHOS INFO] generate build targets list file to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/required_parts_targets_list.json'
+[OHOS INFO] generated parts src flag to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/subsystem_info/parts_src_flag.json'
+[OHOS INFO] generate auto install part to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/auto_install_parts.json'
+[OHOS INFO] generate platforms list to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/platforms_list.gni'
+[OHOS INFO] generate part different info to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/parts_different_info.json'
+[OHOS INFO] generate infos for testfwk to '/home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/infos_for_testfwk.json'
+[OHOS INFO] Checking all product features...
+[OHOS INFO] generate syscap info file to '/home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/system/etc/SystemCapability.json'
+[OHOS INFO] generate syscap info with part name list to '/home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/system/etc/syscap.json'
+[OHOS INFO] generate target syscap for init list to '/home/ljy/openharmony/out/preloader/wifiiot_hispark_pegasus/system/etc/param/syscap.para'
+
+[OHOS INFO] Excuting gn command: /home/ljy/openharmony/prebuilts/build-tools/linux-x86/bin/gn gen --args="product_name=\"wifiiot_hispark_pegasus\" product_path=\"/home/ljy/openharmony/vendor/hisilicon/hispark_pegasus\" product_config_path=\"/home/ljy/openharmony/vendor/hisilicon/hispark_pegasus\" device_name=\"hispark_pegasus\" device_path=\"/home/ljy/openharmony/device/board/hisilicon/hispark_pegasus/liteos_m\" device_company=\"hisilicon\" device_config_path=\"/home/ljy/openharmony/device/board/hisilicon/hispark_pegasus/liteos_m\" is_mini_system=true ohos_kernel_type=\"liteos_m\" ohos_build_compiler_specified=\"gcc\" ohos_build_time=1779070513122 ohos_build_datetime=\"2026-05-18 18:15:13\" disable_huks_binary=false disable_authenticate=false huks_use_lite_storage=true huks_use_hardware_root_key=true huks_config_file=\"hks_config_lite.h\" ohos_security_huks_mbedtls_porting_path=\"//device/soc/hisilicon/hi3861v100/sdk_liteos/third_party/mbedtls\" enable_ohos_startup_init_feature_begetctl_liteos=true enable_ohos_startup_init_lite_use_thirdparty_mbedtls=true utils_lite_feature_file=true enable_ohos_test_xts_acts_use_thirdparty_lwip=false ohos_build_enable_ccache=true ohos_build_type=\"debug\" device_type=\"default\" build_variant=\"root\" root_perf_main=\"main\" runtime_mode=\"release\"" --args=product_name="wifiiot_hispark_pegasus" product_path="/home/ljy/openharmony/vendor/hisilicon/hispark_pegasus" product_config_path="/home/ljy/openharmony/vendor/hisilicon/hispark_pegasus" device_name="hispark_pegasus" device_path="/home/ljy/openharmony/device/board/hisilicon/hispark_pegasus/liteos_m" device_company="hisilicon" device_config_path="/home/ljy/openharmony/device/board/hisilicon/hispark_pegasus/liteos_m" is_mini_system=true ohos_kernel_type="liteos_m" ohos_build_compiler_specified="gcc" ohos_build_time=1779070513122 ohos_build_datetime="2026-05-18 18:15:13" disable_huks_binary=false disable_authenticate=false huks_use_lite_storage=true huks_use_hardware_root_key=true huks_config_file="hks_config_lite.h" ohos_security_huks_mbedtls_porting_path="//device/soc/hisilicon/hi3861v100/sdk_liteos/third_party/mbedtls" enable_ohos_startup_init_feature_begetctl_liteos=true enable_ohos_startup_init_lite_use_thirdparty_mbedtls=true utils_lite_feature_file=true enable_ohos_test_xts_acts_use_thirdparty_lwip=false ohos_build_enable_ccache=true ohos_build_type="debug" device_type="default" build_variant="root" root_perf_main="main" runtime_mode="release" /home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus --script-executable=/home/ljy/openharmony/prebuilts/python/linux-x86/current//bin/python3
+[OHOS INFO] root_out_dir=//out/hispark_pegasus/wifiiot_hispark_pegasus
+[OHOS INFO] root_build_dir=//out/hispark_pegasus/wifiiot_hispark_pegasus
+[OHOS INFO] root_gen_dir=//out/hispark_pegasus/wifiiot_hispark_pegasus/gen
+[OHOS INFO] current_toolchain=//build/lite/toolchain:riscv32-unknown-elf
+[OHOS INFO] host_toolchain=//build/toolchain/linux:clang_x64
+[OHOS INFO] ohos_build_compiler: gcc
+[OHOS INFO] ohos_kernel_type: liteos_m
+[OHOS INFO] hks_config_lite.h
+[OHOS INFO] WARNING at the command-line "--args":1:1018: Build argument has no effect.
+[OHOS INFO] product_name="wifiiot_hispark_pegasus" product_path="/home/ljy/openharmony/vendor/hisilicon/hispark_pegasus" product_config_path="/home/ljy/openharmony/vendor/hisilicon/hispark_pegasus" device_name="hispark_pegasus" device_path="/home/ljy/openharmony/device/board/hisilicon/hispark_pegasus/liteos_m" device_company="hisilicon" device_config_path="/home/ljy/openharmony/device/board/hisilicon/hispark_pegasus/liteos_m" is_mini_system=true ohos_kernel_type="liteos_m" ohos_build_compiler_specified="gcc" ohos_build_time=1779070513122 ohos_build_datetime="2026-05-18 18:15:13" disable_huks_binary=false disable_authenticate=false huks_use_lite_storage=true huks_use_hardware_root_key=true huks_config_file="hks_config_lite.h" ohos_security_huks_mbedtls_porting_path="//device/soc/hisilicon/hi3861v100/sdk_liteos/third_party/mbedtls" enable_ohos_startup_init_feature_begetctl_liteos=true enable_ohos_startup_init_lite_use_thirdparty_mbedtls=true utils_lite_feature_file=true enable_ohos_test_xts_acts_use_thirdparty_lwip=false ohos_build_enable_ccache=true ohos_build_type="debug" device_type="default" build_variant="root" root_perf_main="main" runtime_mode="release"
+[OHOS INFO]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^----
+[OHOS INFO] The variable "enable_ohos_test_xts_acts_use_thirdparty_lwip" was set as a build argument
+[OHOS INFO] but never appeared in a declare_args() block in any buildfile.
+[OHOS INFO] 
+[OHOS INFO] To view all possible args, run "gn args --list <out_dir>"
+[OHOS INFO] 
+[OHOS INFO] The build continued as if that argument was unspecified.
+[OHOS INFO] 
+[OHOS INFO] Done. Made 308 targets from 270 files in 757ms
+
+[OHOS INFO] Excuting ninja command: /home/ljy/openharmony/prebuilts/build-tools/linux-x86/bin/ninja -w dupbuild=warn -C /home/ljy/openharmony/out/hispark_pegasus/wifiiot_hispark_pegasus images
+[OHOS INFO] [1/70] ACTION //base/startup/init/services/param/liteos:lite_ohos_param_to(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [2/69] gcc cross compiler obj/vendor/hisilicon/hispark_pegasus/hals/utils/sys_param/libhal_sysparam.hal_sys_param.o
+[OHOS INFO] [3/69] gcc cross compiler obj/base/startup/init/services/param/liteos/libparam_client_lite.param_litedac.o
+[OHOS INFO] [4/69] gcc cross compiler obj/base/startup/init/services/param/liteos/libparam_client_lite.param_osadp.o
+[OHOS INFO] [5/69] gcc cross compiler obj/base/startup/init/services/param/base/libparam_client_lite.param_base.o
+[OHOS INFO] [6/69] gcc cross compiler obj/base/startup/init/services/param/liteos/libparam_client_lite.param_client.o
+[OHOS INFO] [7/69] gcc cross compiler obj/base/startup/init/services/param/base/libparam_client_lite.param_trie.o
+[OHOS INFO] [8/69] gcc cross compiler obj/base/startup/init/services/param/base/libparam_client_lite.param_comm.o
+[OHOS INFO] [9/69] ACTION //base/security/huks/interfaces/inner_api/huks_lite:huks_3.0_sdk__check(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [0/0] WARNING: //base/security/huks/interfaces/inner_api/huks_lite:huks_3.0_sdk depend part //third_party/mbedtls:mbedtls_static, need set part deps mbedtls info to /home/ljy/openharmony/build/bundle.json.
+[OHOS INFO] [0/0] WARNING:deps validation part_name: 'build_framework', target: '//base/security/huks/interfaces/inner_api/huks_lite:huks_3.0_sdk', dep: '//base/hiviewdfx/hilog_lite/frameworks/mini:hilog_lite' failed!!!
+[OHOS INFO] [10/69] ACTION //base/security/huks/interfaces/inner_api/huks_lite:huks_3.0_sdk__notice(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [11/69] ACTION //developtools/syscap_codec:syscap_tool_bin__check(//build/toolchain/linux:clang_x64)
+[OHOS INFO] [0/0] WARNING:deps validation part_name: 'syscap_codec', target: '//developtools/syscap_codec:syscap_tool_bin', dep: '//build/lite/config/component/cJSON:cjson_static' failed!!!
+[OHOS INFO] [12/69] STAMP obj/base/security/huks/interfaces/inner_api/huks_lite/huks_3.0_sdk__notice.stamp
+[OHOS INFO] [13/69] STAMP obj/base/security/huks/interfaces/inner_api/huks_lite/huks_3.0_sdk__check.stamp
+[OHOS INFO] [14/69] gcc cross compiler obj/base/startup/init/services/utils/libparam_client_lite.init_hashmap.o
+[OHOS INFO] [15/69] STAMP obj/base/security/device_auth/deps_adapter/deviceauth_hal_liteos.inputdeps.stamp
+[OHOS INFO] [16/69] gcc cross compiler obj/base/startup/init/services/param/manager/libparam_client_lite.param_manager.o
+[OHOS INFO] [17/69] AR libs/libhal_sysparam.a
+[OHOS INFO] [18/69] gcc cross compiler obj/base/startup/init/services/utils/libparam_client_lite.list.o
+[OHOS INFO] [19/69] gcc cross compiler obj/base/startup/init/services/log/libparam_client_lite.init_commlog.o
+[OHOS INFO] [20/69] STAMP obj/base/security/device_auth/frameworks/deviceauth_lite/source/hichainsdk.inputdeps.stamp
+[OHOS INFO] [21/69] STAMP obj/base/security/device_auth/services/deviceauth.inputdeps.stamp
+[OHOS INFO] [22/69] STAMP obj/base/security/huks/interfaces/inner_api/huks_lite/huks_3.0_sdk.inputdeps.stamp
+[OHOS INFO] [23/69] STAMP obj/foundation/communication/dsoftbus/core/frame/softbus_server_frame.inputdeps.stamp
+[OHOS INFO] [24/69] STAMP clang_x64/obj/developtools/syscap_codec/syscap_tool_bin__check.stamp
+[OHOS INFO] [25/69] gcc cross compiler obj/base/startup/init/services/param/manager/libparam_client_lite.param_persist.o
+[OHOS INFO] [26/69] STAMP clang_x64/obj/developtools/syscap_codec/syscap_tool_bin.inputdeps.stamp
+[OHOS INFO] [27/69] gcc cross compiler obj/base/startup/init/services/param/liteos/libparam_client_lite.param_service.o
+[OHOS INFO] [28/69] gcc cross compiler obj/base/startup/init/services/param/liteos/libparam_client_lite.param_hal.o
+[OHOS INFO] [29/69] gcc cross compiler obj/base/startup/init/interfaces/hals/utils/sys_param/libhal_sys_param.hal_sys_param.o
+[OHOS INFO] [30/69] AR libs/libhal_sys_param.a
+[OHOS INFO] [31/69] ACTION //developtools/syscap_codec:generate_pcid(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [32/69] STAMP obj/developtools/syscap_codec/generate_pcid.stamp
+[OHOS INFO] [33/69] COPY PCID.sc obj/developtools/syscap_codec/out/hispark_pegasus/wifiiot_hispark_pegasus/PCID.sc
+[OHOS INFO] [34/69] STAMP obj/developtools/syscap_codec/PCID.sc.stamp
+[OHOS INFO] [35/69] STAMP obj/developtools/syscap_codec/pcid_sc.stamp
+[OHOS INFO] [36/69] STAMP obj/developtools/syscap_codec/syscap_codec.stamp
+[OHOS INFO] [37/69] STAMP obj/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/developtools/syscap_codec/syscap_codec_info.stamp
+[OHOS INFO] [38/69] ACTION //out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/developtools/syscap_codec:syscap_codec(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [39/69] STAMP obj/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/developtools/syscap_codec/syscap_codec.stamp
+[OHOS INFO] [40/69] gcc cross compiler obj/base/startup/init/services/param/manager/libparam_client_lite.param_server.o
+[OHOS INFO] [41/69] AR libs/libparam_client_lite.a
+[OHOS INFO] [42/69] gcc cross compiler obj/applications/sample/wifi-iot/app/oled_demo/liboled_demo.oled_demo.o
+[OHOS INFO] [43/69] AR libs/liboled_demo.a
+[OHOS INFO] [44/69] STAMP obj/applications/sample/wifi-iot/app/app.stamp
+[OHOS INFO] [45/69] STAMP obj/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/applications/wifi_iot_sample_app/wifi_iot_sample_app_info.stamp
+[OHOS INFO] [46/69] STAMP obj/build/lite/ohos.stamp
+[OHOS INFO] [47/69] ACTION //out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/applications/wifi_iot_sample_app:wifi_iot_sample_app(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [48/69] STAMP obj/out/hispark_pegasus/wifiiot_hispark_pegasus/build_configs/applications/wifi_iot_sample_app/wifi_iot_sample_app.stamp
+[OHOS INFO] [49/69] ACTION //device/soc/hisilicon/hi3861v100/sdk_liteos:run_wifiiot_scons(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [50/64] STAMP obj/build/ohos/common/generate_host_info.stamp
+[OHOS INFO] [51/64] STAMP obj/build/ohos/common/generate_src_installed_info.stamp
+[OHOS INFO] [52/64] ACTION //build/ohos/common:gen_binary_installed_info(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [53/64] STAMP obj/build/ohos/common/gen_binary_installed_info.stamp
+[OHOS INFO] [54/64] ACTION //build/ohos/common:merge_all_parts(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [55/64] STAMP obj/build/ohos/common/merge_all_parts.stamp
+[OHOS INFO] [56/64] ACTION //build/ohos/packages:phone_parts_list(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [57/64] STAMP obj/build/ohos/packages/phone_parts_list.stamp
+[OHOS INFO] [58/64] ACTION //build/ohos/packages:gen_required_modules_phone(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] [59/64] STAMP obj/build/ohos/packages/gen_required_modules_phone.stamp
+[OHOS INFO] [60/64] STAMP obj/build/ohos/packages/make_packages.stamp
+[OHOS INFO] [61/64] ACTION //build/ohos/packages:packer(//build/lite/toolchain:riscv32-unknown-elf)
+[OHOS INFO] ccache_dir = /home/ljy/.ccache, ccache_exec = /usr/bin/ccache
+[OHOS INFO] --------------------------------------------
+[OHOS INFO] ccache summary:
+[OHOS INFO] ccache version: 4.5.1
+[OHOS INFO] cache hit (direct): 0
+[OHOS INFO] cache hit (preprocessed): 14
+[OHOS INFO] cache miss: 3
+[OHOS INFO] hit rate: 82.35% 
+[OHOS INFO] miss rate: 17.65% 
+[OHOS INFO] Cache size (GB): 0.01 / 100.00 (0.01 %)
+[OHOS INFO] ---------------------------------------------
+[OHOS INFO] c targets overlap rate statistics
+[OHOS INFO] subsystem       	files NO.	percentage	builds NO.	percentage	overlap rate
+[OHOS INFO] applications    	       1	0.1%	       1	0.1%	1.00
+[OHOS INFO] commonlibrary   	       1	0.1%	       1	0.1%	1.00
+[OHOS INFO] communication   	     260	36.6%	     260	36.6%	1.00
+[OHOS INFO] developtools    	       5	0.7%	       5	0.7%	1.00
+[OHOS INFO] hiviewdfx       	      17	2.4%	      17	2.4%	1.00
+[OHOS INFO] security        	     185	26.1%	     185	26.1%	1.00
+[OHOS INFO] startup         	      26	3.7%	      26	3.7%	1.00
+[OHOS INFO] systemabilitymgr	      15	2.1%	      15	2.1%	1.00
+[OHOS INFO] test            	      30	4.2%	      30	4.2%	1.00
+[OHOS INFO] thirdparty      	     144	20.3%	     144	20.3%	1.00
+[OHOS INFO] updater         	       4	0.6%	       4	0.6%	1.00
+[OHOS INFO] xts             	      30	4.2%	      30	4.2%	1.00
+[OHOS INFO] 
+[OHOS INFO] c overall build overlap rate: 1.00
+[OHOS INFO] 
+[OHOS INFO] 
+[OHOS INFO] wifiiot_hispark_pegasus build success
+[OHOS INFO] Cost time:  0:00:20
+[32m=====build  successful=====[0m
+2026-05-18 18:15:33
+++++++++++++++++++++++++++++++++++++++++

@@ -1,0 +1,6 @@
+﻿out/
+build/
+*.log
+!docs/build_demo.log
+.DS_Store
+Thumbs.db

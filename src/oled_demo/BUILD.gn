@@ -1,0 +1,14 @@
+static_library("oled_demo") {
+    sources = [
+        "oled_demo.c",
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//base/iothardware/peripheral/interfaces/inner_api",
+        "//foundation/communication/wifi_lite/interfaces/wifiservice",
+        "//kernel/liteos_m/components/cmsis/2.0",
+        "//device/soc/hisilicon/hi3861v100/sdk_liteos/include",
+        "//device/soc/hisilicon/hi3861v100/sdk_liteos/third_party/lwip_sack/include",
+    ]
+}
